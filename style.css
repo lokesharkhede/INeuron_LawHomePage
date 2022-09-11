@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333315;
+    margin: 0;
+}
+
+.nav-image{
+    margin-left: 6vw;
+}
+
+.nav-image img{
+    width: 140px;
+    height: 45px;
+}
+
+.nav-item{
+    color: #e2dfdf;
+    margin-right: 30px;
+}
+
+.nav-active{
+    font-weight: bold;
+}
+
+nav button{
+    width: 130px;
+    height: 40px;
+    background-color: #333315;
+    border: 1px solid #c2ac03;
+    color: #c2ac03;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 5vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4vh;
+}
+
+.nav-items{
+    margin-left: 20vw;
+}
+
+.middlepart-description{
+    color: #e2dfdf;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    margin-left: 6vw;
+    margin-right: 5vw;
+}
+
+.middlepart-description h1{
+    width: 40vw;
+}
+
+.middlepart-description p{
+    width: 40vw;
+}
+
+.middlepart-description{
+    display: flex;
+}
+
+.middlepart-img img{
+    width: 100vw;
+    height: 90vh;
+}
+
+/*navigationsbutton*/
+
+.button-previous{
+    background-color: #42421c;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+}
+
+.button-next{
+    background-color: #c2ac03;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+}
+
+.arrow-left {
+    border: solid #c2ac03;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 0.2vw;
+}
+
+.arrow-right{
+    border: solid #e2dfdf;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 0.2vw;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.button-previous button{
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid #c2ac03;
+    border-radius: 3vw;
+    background-color: #42421c; 
+    text-align: center;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;    
+}
+
+.button-next button{
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid #e2dfdf;
+    border-radius: 3vw;
+    background-color: #c2ac03; 
+    text-align: center;   
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;  
+}
+
+.navigationsbutton{
+    display: flex;
+    justify-content: end;
+}
